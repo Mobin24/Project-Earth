@@ -40,54 +40,6 @@ export default function Home() {
       {/* Flagship Events & Programs */}
       <EventsSection />
 
-      {/* Gallery Section */}
-      <section id="gallery" className="py-24 bg-beige-warm border-t border-forest-deep/5">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center max-w-2xl mx-auto mb-16 space-y-3">
-            <span className="text-xs uppercase tracking-widest text-olive-accent font-semibold block">
-              Exhibitions
-            </span>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-forest-deep font-serif">
-              Visual Archives & Bio-Activity
-            </h2>
-            <p className="text-sm text-earth-brown font-sans max-w-md mx-auto font-light leading-relaxed">
-              A gallery showcase detailing colony architecture, field excursions, and microbiological soil mappings.
-            </p>
-          </div>
-
-          {/* Responsive gallery grid with empty placeholders as requested */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div className="aspect-[4/3] rounded-3xl bg-forest-mid flex flex-col items-center justify-center border border-olive-accent/15 hover:border-olive-accent/40 shadow-sm relative overflow-hidden group">
-              <div className="absolute inset-0 bg-gradient-to-tr from-forest-deep to-transparent opacity-80" />
-              <div className="relative z-10 p-4 text-center">
-                <h4 className="text-white text-sm font-semibold">Tunnelling Cross-Section</h4>
-                <span className="text-[10px] text-earth-brown/80 font-mono block mt-2 bg-white/10 px-3 py-1 rounded-full backdrop-blur-sm">
-                  [ gallery-1.jpg ]
-                </span>
-              </div>
-            </div>
-            <div className="aspect-[4/3] rounded-3xl bg-forest-mid flex flex-col items-center justify-center border border-olive-accent/15 hover:border-olive-accent/40 shadow-sm relative overflow-hidden group">
-              <div className="absolute inset-0 bg-gradient-to-tr from-forest-deep to-transparent opacity-80" />
-              <div className="relative z-10 p-4 text-center">
-                <h4 className="text-white text-sm font-semibold">Bioturbation Workshop Oregon</h4>
-                <span className="text-[10px] text-earth-brown/80 font-mono block mt-2 bg-white/10 px-3 py-1 rounded-full backdrop-blur-sm">
-                  [ gallery-2.jpg ]
-                </span>
-              </div>
-            </div>
-            <div className="aspect-[4/3] rounded-3xl bg-forest-mid flex flex-col items-center justify-center border border-olive-accent/15 hover:border-olive-accent/40 shadow-sm relative overflow-hidden group">
-              <div className="absolute inset-0 bg-gradient-to-tr from-forest-deep to-transparent opacity-80" />
-              <div className="relative z-10 p-4 text-center">
-                <h4 className="text-white text-sm font-semibold">Micro-Ecological Camp 2026</h4>
-                <span className="text-[10px] text-earth-brown/80 font-mono block mt-2 bg-white/10 px-3 py-1 rounded-full backdrop-blur-sm">
-                  [ gallery-3.jpg ]
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Achievements Section */}
       <AchievementsSection />
 

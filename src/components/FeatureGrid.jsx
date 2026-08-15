@@ -1,48 +1,50 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Newspaper, FileText, PenTool, Image, UserPlus, Lightbulb } from 'lucide-react';
+import { Newspaper, FileText, PenTool, Image as ImageIcon, UserPlus, Lightbulb, ArrowRight } from 'lucide-react';
 
 export default function FeatureGrid() {
+  const navigate = useNavigate();
+
   const cards = [
     {
       title: 'News & Updates',
       description: 'Daily developments, field logs, and announcements from Earth\'s Ants sites.',
       icon: Newspaper,
-      link: '/#news-daily',
-      placeholder: 'news-placeholder.jpg',
+      link: '/#events',
+      targetId: 'events',
       bgStyle: 'bg-white'
     },
     {
       title: 'Research & Articles',
       description: 'Academic studies, bioturbation papers, and environmental analytics journals.',
       icon: FileText,
-      link: '/#research',
-      placeholder: 'research-placeholder.jpg',
+      link: '/#publications',
+      targetId: 'publications',
       bgStyle: 'bg-white'
     },
     {
       title: 'Member Blogs',
       description: 'First-hand reflections, research stories, and diaries from local colony members.',
       icon: PenTool,
-      link: '/#blogs',
-      placeholder: 'blogs-placeholder.jpg',
+      link: '/#publications',
+      targetId: 'publications',
       bgStyle: 'bg-white'
     },
     {
       title: 'Creative Corner',
       description: 'Ecological sketches, nature inspired poems, and microscopic photography prints.',
       icon: Lightbulb,
-      link: '/#creative',
-      placeholder: 'creative-placeholder.jpg',
+      link: '/#events',
+      targetId: 'events',
       bgStyle: 'bg-white'
     },
     {
       title: 'Gallery',
       description: 'Visual database of ant species, habitat setups, and conservation teams.',
-      icon: Image,
-      link: '/#gallery',
-      placeholder: 'gallery-1.jpg', // gallery-1.jpg placeholder as requested
+      icon: ImageIcon,
+      link: '/#events',
+      targetId: 'events',
       bgStyle: 'bg-white'
     },
     {
@@ -50,26 +52,39 @@ export default function FeatureGrid() {
       description: 'Apply to be a volunteer, formal research member, or corporate sponsor.',
       icon: UserPlus,
       link: '/get-involved',
-      placeholder: 'join-placeholder.jpg',
+      targetId: null,
       bgStyle: 'bg-olive-accent/15 border border-olive-accent/30 text-forest-deep'
     }
   ];
+
+  const handleCardClick = (card) => {
+    if (card.targetId) {
+      const element = document.getElementById(card.targetId);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      } else {
+        navigate(card.link);
+      }
+    } else {
+      navigate(card.link);
+    }
+  };
 
   const containerVariants = {
     hidden: {},
     visible: {
       transition: {
-        staggerChildren: 0.1
+        staggerChildren: 0.08
       }
     }
   };
 
   const cardVariants = {
-    hidden: { opacity: 0, y: 30 },
+    hidden: { opacity: 0, y: 25 },
     visible: { 
       opacity: 1, 
       y: 0,
-      transition: { duration: 0.5, ease: 'easeOut' } 
+      transition: { duration: 0.4, ease: 'easeOut' } 
     }
   };
 
@@ -90,15 +105,12 @@ export default function FeatureGrid() {
           </p>
         </div>
 
-        {/* 
-          6-card row on desktop, stack on mobile.
-          We use grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6
-        */}
+        {/* 6-card row on desktop */}
         <motion.div
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, margin: '-100px' }}
+          viewport={{ once: true, margin: '-80px' }}
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-6"
         >
           {cards.map((card, idx) => {
@@ -108,25 +120,26 @@ export default function FeatureGrid() {
               <motion.div
                 key={idx}
                 variants={cardVariants}
+                onClick={() => handleCardClick(card)}
                 whileHover={{
-                  y: -8,
-                  scale: 1.03,
-                  boxShadow: '0 20px 25px -5px rgba(138, 168, 123, 0.25), 0 8px 10px -6px rgba(138, 168, 123, 0.2)',
+                  y: -6,
+                  scale: 1.02,
+                  boxShadow: '0 16px 24px -4px rgba(138, 168, 123, 0.2), 0 6px 10px -4px rgba(138, 168, 123, 0.1)',
                 }}
                 transition={{ type: 'spring', stiffness: 300, damping: 20 }}
-                className={`rounded-2xl p-6 flex flex-col justify-between shadow-sm relative overflow-hidden transition-colors border border-forest-deep/5 ${card.bgStyle} group cursor-pointer`}
+                className={`rounded-3xl p-6 flex flex-col justify-between shadow-sm relative overflow-hidden transition-all border border-forest-deep/5 ${card.bgStyle} group cursor-pointer`}
               >
-                {/* Background design accents */}
-                <div className="absolute right-[-20%] top-[-20%] w-24 h-24 rounded-full bg-olive-accent/5 group-hover:bg-olive-accent/10 transition-colors pointer-events-none" />
+                {/* Subtle gradient background element */}
+                <div className="absolute right-[-15%] top-[-15%] w-20 h-20 rounded-full bg-olive-accent/5 group-hover:bg-olive-accent/15 transition-colors pointer-events-none" />
 
-                {/* Card Top */}
+                {/* Card Top: Icon & Details */}
                 <div className="space-y-4 relative z-10">
-                  <div className="w-10 h-10 rounded-xl bg-forest-deep text-olive-accent flex items-center justify-center group-hover:bg-olive-accent group-hover:text-forest-deep transition-colors duration-300">
+                  <div className="w-11 h-11 rounded-2xl bg-forest-deep text-olive-accent flex items-center justify-center group-hover:bg-olive-accent group-hover:text-forest-deep transition-all duration-300 shadow-sm">
                     <Icon size={20} />
                   </div>
                   
-                  <div>
-                    <h3 className="text-lg font-bold text-forest-deep tracking-wide font-serif mb-1 group-hover:text-forest-mid">
+                  <div className="space-y-1.5">
+                    <h3 className="text-lg font-bold text-forest-deep tracking-wide font-serif group-hover:text-olive-accent transition-colors">
                       {card.title}
                     </h3>
                     <p className="text-xs text-earth-brown leading-relaxed font-sans font-light">
@@ -135,28 +148,12 @@ export default function FeatureGrid() {
                   </div>
                 </div>
 
-                {/* Card Bottom: Image comment identifier for coding clarity */}
-                <div className="mt-8 pt-4 border-t border-forest-deep/5 space-y-2 relative z-10">
-                  <span className="text-[9px] uppercase tracking-widest text-olive-accent font-semibold block">
-                    Source Placeholder:
-                  </span>
-                  <span className="text-[10px] text-earth-brown/80 font-mono block overflow-hidden text-ellipsis whitespace-nowrap bg-beige-warm/50 px-2 py-1 rounded">
-                    {/* {card.placeholder} */}
-                    {card.placeholder}
-                  </span>
-                  <Link
-                    to={card.link}
-                    onClick={() => {
-                      if (card.link.startsWith('/#')) {
-                        const id = card.link.substring(2);
-                        document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
-                      }
-                    }}
-                    className="inline-flex items-center space-x-1 text-xs text-forest-deep group-hover:text-olive-accent font-bold uppercase tracking-wider transition-colors pt-2"
-                  >
+                {/* Card Bottom: Action CTA */}
+                <div className="mt-8 pt-4 border-t border-forest-deep/5 flex items-center justify-between relative z-10">
+                  <span className="text-xs text-forest-deep group-hover:text-olive-accent font-bold uppercase tracking-wider transition-colors inline-flex items-center gap-1.5">
                     <span>Open Portal</span>
-                    <span className="transform group-hover:translate-x-1 transition-transform duration-300">→</span>
-                  </Link>
+                    <ArrowRight size={13} className="transform group-hover:translate-x-1 transition-transform duration-300" />
+                  </span>
                 </div>
               </motion.div>
             );
