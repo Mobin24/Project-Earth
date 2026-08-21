@@ -4,10 +4,10 @@ import { Mail } from 'lucide-react';
 import { leadershipData } from '../data/leadershipData';
 
 export default function LeadershipSection() {
-  const [activeTab, setActiveTab] = useState('presidential');
+  const [activeTab, setActiveTab] = useState('advisory');
 
   const tabs = [
-    { id: 'presidential', label: 'Presidential Board' },
+    // { id: 'presidential', label: 'Presidential Board' },
     { id: 'advisory', label: 'Advisory Board' },
     { id: 'executive', label: 'Central Executive Council' },
     { id: 'departments', label: 'Departments' },
@@ -76,12 +76,11 @@ export default function LeadershipSection() {
                   <div className="w-28 h-28 rounded-full bg-forest-mid flex-shrink-0 flex items-center justify-center text-center overflow-hidden border-2 border-olive-accent/20 group-hover:border-olive-accent transition-colors relative">
                     <div className="absolute inset-0 bg-gradient-to-tr from-forest-deep to-olive-accent/20 opacity-90" />
                     
-                    <div className="relative z-10 flex flex-col items-center justify-center p-2 text-center text-[#ECEAE5]">
-                      <span className="text-[8px] font-mono leading-none break-all block">
-                        {/* {member.imagePlaceholder} */}
-                        {member.imagePlaceholder}
-                      </span>
-                    </div>
+                    <img
+  src={member.imagePlaceholder}
+  alt={member.name}
+  className="relative z-10 w-full h-full object-cover"
+/>
                   </div>
 
                   {/* Profile Details Area */}

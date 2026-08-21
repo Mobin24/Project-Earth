@@ -3,23 +3,30 @@ import { assets } from './assets';
 export const testimonialsData = [
   {
     id: 1,
-    quote: "Earth’s Ants has done what very few organizations manage to do: they have turned the spotlight on the silent architects of our ecosystem. Soil regeneration is impossible without micro-organisms and insects, and this NGO stands at the vanguard of that movement.",
-    author: "Sir David Attenwood",
-    position: "Ecology Broadcaster & Honorary Member",
-    imagePlaceholder: assets.images.testimonials[0]
+    quote: "As a geologist, I believe Earths Ants is paving the way for a greener future by engaging communities in environmental conservation. Their initiatives inspire real change and safeguard our planet for generations to come",
+    author: "Md. jamal Uddin",
+    position: "PROFESSOR AND CHAIRMAN, DEPARTMENT OF ENVIRONMENTAL SCIENCES, STUDENTS COUNSELLING & GUIDANCE CENTER, JAHANGIRNAGAR UNIVERSITY",
+  
   },
   {
     id: 2,
-    quote: "Working together with Earth’s Ants opened our eyes to the micro-biodiversity beneath our feet. Their dedication to scientific rigor combined with community mobilization is exactly what the modern ecological movement needs.",
-    author: "Dr. Jane Mirren",
-    position: "Founder, Global Soil Coalition",
-    imagePlaceholder: assets.images.testimonials[1]
+    quote: "Earths Ants stands out for its commitment to raising environmental awareness. Their work is crucial in addressing pressing climate challenges and fostering a sustainable world for our future.",
+    author: "Md. Zillur Rahman",
+    position: "PROFESSOR, DEPT. OF DISASTER SCIENCE AND CLIMATE RESILIENCE, FORMER DEAN, FACULTY OF EARTH & ENVIRONMENTAL SCIENCES, UNIVERSITY OF DHAKA",
+    
   },
   {
     id: 3,
-    quote: "Their recruitment platform is a masterpiece of grassroots organizing. Within a year, we saw a massive surge of local volunteers and youth leaders taking care of urban forest floors. An inspiring model of environmental action.",
-    author: "Chief Robert Elk",
-    position: "Adviser, First Nations Environmental Council",
-    imagePlaceholder: assets.images.testimonials[2]
+    quote: "Earths Ants stands out for its commitment to raising environmental awareness. Their work is crucial in addressing pressing climate challenges and fostering a sustainable world for our future.",
+    author: "DR. NAVIN YADAV",
+    position: "FOUNDER PRESIDENT, NEPALESE MEDICAL STUDENTS ASSOCIATION, BANGLADESH; CHARTER PRESIDENT, KATHMANDU RAMECHHAP LEO CLUB; FORMER INTERN DOCTOR, POPULAR MEDICAL COLLEGE & HOSPITAL",
+    
+  },
+  {
+    id: 3,
+    quote: "Earths Ants is dedicated to fostering environmental awareness and sustainable practices through impactful initiatives. Their work empowers communities to take meaningful action toward a greener, more resilient planet",
+    author: "SOHAG AN NAFIS",
+    position: "COUNTRY DIRECTOR (BANGLADESH), GLOBAL ENTREPRENEURSHIP BOOTCAMP; TRAINER- ENGLISH SPEAKING, NDF BD (NATIONAL DEBATE FEDERATION BANGLADESH); FOUNDER CHAIRMAN, SAIDPUR DEBATE FEDERATION",
+    
   }
 ];

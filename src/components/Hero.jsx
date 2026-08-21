@@ -144,11 +144,11 @@ export default function Hero() {
 {/* content */}
 <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-6 bg-forest-deep/20 backdrop-blur-[1px] transition-all group-hover:backdrop-blur-0 z-20">
   <Leaf size={48} className="text-olive-accent/80 mb-3 group-hover:scale-110 transition-transform duration-500 drop-shadow-md" />
-  <h3 className="text-xl md:text-2xl font-sans text-[#FCFAF7] font-medium drop-shadow-lg">
+  {/* <h3 className="text-xl md:text-2xl font-sans text-[#FCFAF7] font-medium drop-shadow-lg">
     Deep Soil & Reforestation Exhibition
-  </h3>
-  <a href="https://www.earthsants.org/" className="text-[10px] text-olive-accent uppercase tracking-widest font-semibold mt-4 bg-forest-deep/80 py-1.5 px-3 rounded-full border border-olive-accent/10 shadow-md">
-    Hovering over the forest floor
+  </h3> */}
+  <a href="https://greenfluenceearthsants.com" className="text-[10px] text-olive-accent uppercase tracking-widest font-semibold mt-4 bg-forest-deep/80 py-1.5 px-3 rounded-full border border-olive-accent/10 shadow-md">
+    Click here to explore Greenfluence.
   </a>
 </div>
         </motion.div>
