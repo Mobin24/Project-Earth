@@ -74,9 +74,13 @@ export default function GetInvolved() {
         <div className="absolute inset-0 bg-gradient-to-tr from-forest-deep via-forest-mid to-olive-accent/15 opacity-80" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center space-y-4">
           <span className="text-xs uppercase tracking-widest text-olive-accent font-semibold">Join The Colony</span>
-          <h1 className="text-4xl sm:text-5xl font-bold font-serif">Recruitment & Support Portal</h1>
+          <h1 className="text-4xl sm:text-5xl font-bold font-serif">Be Part of the Movement</h1>
           <p className="text-sm text-[#D0CFC9] max-w-xl mx-auto font-light font-sans">
-            Every member contributes to the strength of the colony. Choose how you would like to participate in conserving soil and micro-ecological networks.
+            At Earth’s Ants, we believe meaningful environmental change happens when individuals, institutions, and communities work together.
+
+            Whether you are a student, researcher, professional, organization or             sustainability enthusiast, there is a place for you in our growing             network of changemakers.
+
+            Join us in advancing climate education, research, innovation, and             community-driven sustainability action.
           </p>
         </div>
       </section>
@@ -180,7 +184,7 @@ export default function GetInvolved() {
                         className="w-full bg-white border border-forest-deep/5 rounded-xl py-3 px-4 text-sm text-forest-deep placeholder-earth-brown/40 focus:outline-none focus:ring-1 focus:ring-olive-accent focus:border-olive-accent transition-all"
                       />
                     </div>
-
+                     
                     {/* Member Specific Fields */}
                     {activeTab === 'member' && (
                       <div className="space-y-2">
@@ -206,10 +210,14 @@ export default function GetInvolved() {
                           onChange={handleInputChange}
                           className="w-full bg-white border border-forest-deep/5 rounded-xl py-3 px-4 text-sm text-forest-deep focus:outline-none focus:ring-1 focus:ring-olive-accent focus:border-olive-accent transition-all"
                         >
-                          <option value="field">Field Research & Mapping</option>
-                          <option value="education">Community Education Camps</option>
-                          <option value="digital">Creative Media & Digital Design</option>
-                          <option value="legal">Conservation Law Support</option>
+                          <option value="field">Climate Education & Outreach</option>
+                          <option value="education">Research & Publications</option>
+                          <option value="digital">Community Sustainability
+                            </option>
+                          <option value="legal">Creative Media & Design</option>
+                          <option value="digital">Events & Operations</option>
+                           <option value="digital">Partnership Support</option>
+                            <option value="digital">Global Youth Network</option>
                         </select>
                       </div>
                     )}
@@ -217,17 +225,19 @@ export default function GetInvolved() {
                     {/* Sponsor Specific Fields */}
                     {activeTab === 'sponsor' && (
                       <div className="space-y-2">
-                        <label className="text-xs font-semibold uppercase tracking-wider text-forest-deep block">Sponsorship Grade</label>
+                        <label className="text-xs font-semibold uppercase tracking-wider text-forest-deep block">Organization Type</label>
                         <select
                           name="sponsorLevel"
                           value={formData.sponsorLevel}
                           onChange={handleInputChange}
                           className="w-full bg-white border border-forest-deep/5 rounded-xl py-3 px-4 text-sm text-forest-deep focus:outline-none focus:ring-1 focus:ring-olive-accent focus:border-olive-accent transition-all"
                         >
-                          <option value="seed">Seed Supporter ($250 / year)</option>
-                          <option value="canopy">Canopy Partner ($1,000 / year)</option>
-                          <option value="colony">Colony Pillar ($5,000 / year)</option>
-                          <option value="global">Global Guardian ($10,000+ / year)</option>
+                          <option value="seed">University / Educational Institution</option>
+                          <option value="canopy">Corporate</option>
+                          <option value="canopy">NGO/NPO</option>
+                          <option value="canopy">Research Organization</option>
+                          <option value="canopy">Government / Public Institution</option>
+                          <option value="canopy">Media Organization</option>
                         </select>
                       </div>
                     )}
@@ -318,7 +328,7 @@ export default function GetInvolved() {
             {/* Right side donation options */}
             <div className="lg:col-span-6 grid grid-cols-1 sm:grid-cols-3 gap-6">
               
-              <div className="bg-white border border-forest-deep/5 rounded-3xl p-6 text-center space-y-4 hover:border-olive-accent/20 transition-all flex flex-col justify-between">
+              {/* <div className="bg-white border border-forest-deep/5 rounded-3xl p-6 text-center space-y-4 hover:border-olive-accent/20 transition-all flex flex-col justify-between">
                 <div className="space-y-2">
                   <Gift className="text-olive-accent mx-auto" size={24} />
                   <h3 className="text-base font-bold font-serif text-forest-deep">Soil Cell Kit</h3>
@@ -332,9 +342,9 @@ export default function GetInvolved() {
                     Sponsor Kit
                   </button>
                 </div>
-              </div>
+              </div> */}
 
-              <div className="bg-white border border-forest-deep/5 rounded-3xl p-6 text-center space-y-4 hover:border-olive-accent/20 transition-all flex flex-col justify-between">
+              {/* <div className="bg-white border border-forest-deep/5 rounded-3xl p-6 text-center space-y-4 hover:border-olive-accent/20 transition-all flex flex-col justify-between">
                 <div className="space-y-2">
                   <Gift className="text-olive-accent mx-auto" size={24} />
                   <h3 className="text-base font-bold font-serif text-forest-deep">Microscopes</h3>
@@ -364,7 +374,7 @@ export default function GetInvolved() {
                     Fund Camp
                   </button>
                 </div>
-              </div>
+              </div> */}
 
             </div>
 

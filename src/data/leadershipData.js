@@ -29,35 +29,40 @@ export const leadershipData = {
   //     socials: { twitter: '#', linkedin: '#', email: 'arthur@earthsants.org' }
   //   }
   // ],
-  advisory: [{
-      id: 'a1',
-      name: 'Md. jamal Uddin',
-      position: 'PROFESSOR AND CHAIRMAN, DEPARTMENT OF ENVIRONMENTAL SCIENCES, STUDENTS COUNSELLING & GUIDANCE CENTER, JAHANGIRNAGAR UNIVERSITY',
-      bio: 'As a geologist, I believe Earths Ants is paving the way for a greener future by engaging communities in environmental conservation. Their initiatives inspire real change and safeguard our planet for generations to come',
-      imagePlaceholder: '/jamal.jpeg',
-      socials: { email: 'jamaluddinrunu@juniv.edu' }
-    },
+  advisory: [
+  {
+  id: 'a1',
+  name: 'Prof. Md. Zillur Rahman, PhD',
+  position: '(Founding Advisor)',
+  bio: 'PhD in Geotechnical Earthquake Engineering (UBC, Canada). MSc in Geological Engineering (UT, Netherlands). BSc & MSc in Geology (DU). Engineering Geologist and Professor, Department of Disaster Science and Climate Resilience, University of Dhaka. Former Dean, Faculty of Earth and Environmental Sciences, University of Dhaka.',
+  imagePlaceholder: '/Zillur.jpg',
+  socials: {
+    linkedin: 'https://www.linkedin.com/in/md-zillur-rahman-81872440/'
+  }
+},
     {
-      id: 'a2',
-      name: 'Md. Zillur Rahman',
-      position: 'PROFESSOR, DEPT. OF DISASTER SCIENCE AND CLIMATE RESILIENCE, FORMER DEAN, FACULTY OF EARTH & ENVIRONMENTAL SCIENCES, UNIVERSITY OF DHAKA',
-      bio: 'Earths Ants stands out for its commitment to raising environmental awareness. Their work is crucial in addressing pressing climate challenges and fostering a sustainable world for our future',
-      imagePlaceholder: '/Zillur.jpg',
-      socials: { linkedin: 'https://www.linkedin.com/in/md-zillur-rahman-81872440/', }
-    },
+  id: 'a2',
+  name: 'Prof. Mohammed Jamal Uddin',
+  position: '(Founding Advisor)',
+  bio: 'Professor, Department of Environmental Sciences. Director, Students Counselling and Guidance Centre, Jahangirnagar University.',
+  imagePlaceholder: '/jamal.jpeg',
+  socials: {
+    email: 'jamaluddinrunu@juniv.edu'
+  }
+},
     {
       id: 'a3',
       name: 'SOHAG AN NAFIS',
-      position: 'COUNTRY DIRECTOR (BANGLADESH), GLOBAL ENTREPRENEURSHIP BOOTCAMP; TRAINER- ENGLISH SPEAKING, NDF BD (NATIONAL DEBATE FEDERATION BANGLADESH); FOUNDER CHAIRMAN, SAIDPUR DEBATE FEDERATION',
-      bio: 'Earths Ants is dedicated to fostering environmental awareness and sustainable practices through impactful initiatives. Their work empowers communities to take meaningful action toward a greener, more resilient planet',
+      position: '',
+      bio: 'COUNTRY DIRECTOR (BANGLADESH), GLOBAL ENTREPRENEURSHIP BOOTCAMP; TRAINER- ENGLISH SPEAKING, NDF BD (NATIONAL DEBATE FEDERATION BANGLADESH); FOUNDER CHAIRMAN, SAIDPUR DEBATE FEDERATION',
       imagePlaceholder: '/Sohag.png',
       socials: { email: 'snafis238@gmail.com', }
     },
     {
       id: 'a4',
       name: 'DR. NAVIN YADAV',
-      position: 'FOUNDER PRESIDENT, NEPALESE MEDICAL STUDENTS ASSOCIATION, BANGLADESH; CHARTER PRESIDENT, KATHMANDU RAMECHHAP LEO CLUB; FORMER INTERN DOCTOR, POPULAR MEDICAL COLLEGE & HOSPITAL',
-      bio: 'Earths Ants stands out for its commitment to raising environmental awareness. Their work is crucial in addressing pressing climate challenges and fostering a sustainable world for our future.',
+      position: '',
+      bio: 'FOUNDER PRESIDENT, NEPALESE MEDICAL STUDENTS ASSOCIATION, BANGLADESH; CHARTER PRESIDENT, KATHMANDU RAMECHHAP LEO CLUB; FORMER INTERN DOCTOR, POPULAR MEDICAL COLLEGE & HOSPITAL',
       imagePlaceholder: '/Nav.jpg',
       socials: { email: 'https://www.instagram.com/naya_navin?fbclid=IwY2xjawT02hNwZG9mBWV4dG4DYWVtAjEwAGJyaWQRMWsxdk5jUkwxcDdlUWFMOHlzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeWru4e_bussVGkhNCL0figs2uaAhPHItKXhTI5S0WZrMsTtWL2h86yR2b3Ys_aem_0jWtwauL7TfXfA6ltpSPTQ', }
     }

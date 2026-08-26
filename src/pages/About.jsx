@@ -116,9 +116,7 @@ export default function About() {
           </h1>
 
           <p className="text-sm text-[#D0CFC9] max-w-xl mx-auto font-light font-sans">
-            Learn more about Earth&apos;s Ants: our story, our mission and
-            vision, and the youth-led movement driving climate action across
-            16 countries.
+           Building a generation of youth leaders through education, research, innovation and action; from Bangladesh to the World.
           </p>
 
         </div>
@@ -582,7 +580,8 @@ export default function About() {
                     </h4>
 
                     <p className="text-[11px] text-earth-brown/80 font-light leading-relaxed">
-                      Building climate literacy and green skills among youth.
+                     Building climate literacy and green skills among young people.
+
                     </p>
 
                   </div>
@@ -603,8 +602,47 @@ export default function About() {
                     </h4>
 
                     <p className="text-[11px] text-earth-brown/80 font-light leading-relaxed">
-                      Ambassadors and volunteers driving local action in 16
-                      countries.
+                      Connecting young changemakers across 16 countries for collective action.
+                    </p>
+
+                  </div>
+
+                </div>
+                  
+                <div className="flex items-start space-x-3">
+
+                  <div className="w-8 h-8 rounded-lg bg-olive-accent/15 flex items-center justify-center text-olive-accent flex-shrink-0">
+                    <Sparkles size={16} />
+                  </div>
+
+                  <div>
+
+                    <h4 className="text-xs font-bold text-forest-deep uppercase tracking-wider mb-0.5">
+                      COMMUNITY ACTION
+                    </h4>
+
+                    <p className="text-[11px] text-earth-brown/80 font-light leading-relaxed">
+                      Taking sustainability from awareness to action at the local level.
+                    </p>
+
+                  </div>
+
+                </div>
+
+                <div className="flex items-start space-x-3">
+
+                  <div className="w-8 h-8 rounded-lg bg-olive-accent/15 flex items-center justify-center text-olive-accent flex-shrink-0">
+                    <Sparkles size={16} />
+                  </div>
+
+                  <div>
+
+                    <h4 className="text-xs font-bold text-forest-deep uppercase tracking-wider mb-0.5">
+                      RESEARCH & INNOVATION
+                    </h4>
+
+                    <p className="text-[11px] text-earth-brown/80 font-light leading-relaxed">
+                      Turning environmental challenges into evidence-based solutions.
                     </p>
 
                   </div>
@@ -635,18 +673,32 @@ export default function About() {
             <InfoCard
               icon={Compass}
               title="Our Mission"
-              description="Earth's Ants is dedicated to empowering youth as leaders and innovators for a sustainable future. Through research, education, community engagement, and innovative initiatives, we promote climate resilience, biodiversity conservation, and responsible resource management — guided by our philosophy, 'Think, Live, and Work like Ants.'"
+              description="Earth’s Ants exists to empower youth as leaders, innovators, and changemakers for a sustainable future. Through climate education, research, community engagement, and innovation-driven initiatives, we equip young people with the knowledge, skills, and opportunities to address environmental challenges. Guided by our philosophy “Think, Live & Work Like Ants,” we believe collective action creates lasting impact. By connecting youth, institutions, experts, and communities, we transform environmental awareness into practical solutions that strengthen climate resilience, protect biodiversity, and promote responsible living."
               footerLabel="Reach"
-              footerText="Active across 100+ institutions in 16 countries."
+              footerText="A growing youth network across 100+ institutions nationally and over 16 countries"
             />
 
             {/* Vision */}
             <InfoCard
               icon={Eye}
               title="Our Vision"
-              description="Earth's Ants envisions a future where people work together to protect nature and build a healthy, sustainable planet — using science, education, innovation, and creative thinking to develop nature-friendly communities and climate-smart solutions for everyday life."
-              footerLabel="Prospect"
-              footerText="Aspiring to make Bangladesh a global model of sustainability by 2040."
+              description="We envision a future where sustainability becomes a shared responsibility where communities, guided by science, education, and innovation, work together to protect nature and build a resilient planet. Our vision is to inspire a generation of environmentally responsible leaders who develop climate-smart solutions, advance green innovation, and create sustainable communities. By nurturing youth-driven action and collaboration, we aspire to contribute toward making Bangladesh a global model for sustainability by 2040 ."
+              footerLabel="Our Aspiration"
+              footerText="A world where sustainable living becomes a culture, and every individual becomes a guardian of the planet."
+            />
+
+             <InfoCard
+              icon={Eye}
+              title="Shonar Tori"
+              description="Shonar Tori is Earth’s Ants’ sustainable lifestyle initiative as well as a social enterprise dedicated to preserving Bengal’s rich cultural heritage while creating opportunities for rural artisans and traditional craftsmen. By connecting authentic craftsmanship with conscious consumers, Shonar Tori promotes ethical fashion, responsible consumption, and the preservation of indigenous artistic traditions. The initiative represents our belief that sustainability is not only about protecting nature, it is also about protecting communities, culture and livelihoods."
+              
+            />
+
+             <InfoCard
+              icon={Eye}
+              title="ANTHROGEN Lab"
+              description="ANTHROGEN Lab is Earth’s Ants’ research and innovation platform dedicated to exploring environmental challenges through scientific thinking, interdisciplinary research and solution-oriented approaches. The lab aims to bridge the gap between knowledge and action by encouraging young researchers, innovators, and environmental thinkers to develop practical solutions for climate resilience, sustainability, and future challenges. Through research, experimentation, collaboration and knowledge sharing, ANTHROGEN Lab nurtures the next generation of environmental scientists and innovators"
+              
             />
 
           </div>
