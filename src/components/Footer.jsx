@@ -175,7 +175,7 @@ export default function Footer() {
           <div className="flex items-center space-x-6">
             {/* Minimal Grayscale Social Icons */}
             <div className="flex space-x-4 font-medium">
-              {['Twitter', 'LinkedIn', 'Facebook'].map((social) => (
+              {['Twitter', 'Linkedin', 'Facebook'].map((social) => (
                 <a
                   key={social}
                   href={`#${social.toLowerCase()}`}
