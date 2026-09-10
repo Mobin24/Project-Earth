@@ -84,7 +84,7 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-base sm:text-lg md:text-xl text-[#D0CFC9] font-sans max-w-2xl mx-auto font-light leading-relaxed"
           >
-            A youth-driven organization dedicated to environmental science, research, and innovation
+            Empowering Youth. Advancing Climate Action. Building a Sustainable Future.
           </motion.p>
         </div>
 
