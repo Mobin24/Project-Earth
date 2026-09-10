@@ -10,6 +10,7 @@ import TestimonialSlider from '../components/TestimonialSlider';
 import PublicationsSection from '../components/PublicationsSection';
 import AchievementsSection from '../components/AchievementsSection';
 import ImpactStats from "../components/ImpactStats";
+import AboutIntro from '../components/AboutIntro';
 export default function Home() {
   const location = useLocation();
 
@@ -33,7 +34,7 @@ export default function Home() {
     <div className="w-full">
       {/* Cinematic Hero */}
       <Hero />
-
+      <AboutIntro />
       <ImpactStats />
 
       {/* Feature Grid */}
