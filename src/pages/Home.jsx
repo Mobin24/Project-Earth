@@ -77,15 +77,15 @@ export default function Home() {
               <div className="space-y-4 pt-4">
                 <div className="flex items-start space-x-3 text-sm text-earth-brown">
                   <MapPin size={18} className="text-olive-accent mt-1 flex-shrink-0" />
-                  <span>108 Formicary Ave, Forest Canopy, Oregon, 97401</span>
+                  <span>Dhaka,Bangladesh</span>
                 </div>
                 <div className="flex items-center space-x-3 text-sm text-earth-brown">
                   <Phone size={18} className="text-olive-accent flex-shrink-0" />
-                  <span>+1 (503) 555-0194</span>
+                  <span>+8801572917518</span>
                 </div>
                 <div className="flex items-center space-x-3 text-sm text-earth-brown">
                   <Mail size={18} className="text-olive-accent flex-shrink-0" />
-                  <span>info@earthsants.org</span>
+                  <span>contact@earthsants.org</span>
                 </div>
               </div>
             </div>
