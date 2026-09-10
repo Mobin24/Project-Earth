@@ -122,8 +122,8 @@ export const leadershipData = {
     {
       id: 'd4',
       name: 'Research & Publication (RP)',
-      position: 'Events & Operations Management',
-      bio: 'Plans, coordinates, and executes events while managing day-to-day operational activities. EO ensures smooth collaboration, efficient execution, and successful delivery of organizational programs.',
+      position: 'Research & Publication Management',
+      bio: 'Conducts research, develops insightful content, and manages publications to support knowledge sharing and organizational growth. RP focuses on collecting reliable information, producing quality publications, and communicating ideas effectively through research-based content.',
       imagePlaceholder: '/15.png',
       socials: { }
       
