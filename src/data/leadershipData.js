@@ -78,7 +78,7 @@ export const leadershipData = {
     },
      {
       id: 'e2',
-      name: 'Md. Mirajul Islam',
+      name: 'Rafi Ahamed Fida',
       position: 'CTO-Chief Technology Officer',
       imagePlaceholder: '/Rafi.jpg',
       socials: { linkedin: 'https://www.linkedin.com/in/rafiahamed001/', email: 'fidaahamed15@gmail.com' }
