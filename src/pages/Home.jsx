@@ -81,7 +81,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-center space-x-3 text-sm text-earth-brown">
                   <Phone size={18} className="text-olive-accent flex-shrink-0" />
-                  <span>+8801572917518</span>
+                  <span>+8801887060447</span>
                 </div>
                 <div className="flex items-center space-x-3 text-sm text-earth-brown">
                   <Mail size={18} className="text-olive-accent flex-shrink-0" />
