@@ -32,7 +32,7 @@ export const leadershipData = {
   advisory: [
   {
   id: 'a1',
-  name: 'Prof. Md. Zillur Rahman, PhD',
+  name: 'PROF. DR. MD. ZILLUR RAHMAN, PhD',
   position: '(Founding Advisor)',
   bio: 'PhD in Geotechnical Earthquake Engineering (UBC, Canada). MSc in Geological Engineering (UT, Netherlands). BSc & MSc in Geology (DU). Engineering Geologist and Professor, Department of Disaster Science and Climate Resilience, University of Dhaka. Former Dean, Faculty of Earth and Environmental Sciences, University of Dhaka.',
   imagePlaceholder: '/Zillur.jpg',
@@ -42,7 +42,7 @@ export const leadershipData = {
 },
     {
   id: 'a2',
-  name: 'Prof. Mohammed Jamal Uddin',
+  name: 'PROF. MOHAMMED JAMAL UDDIN',
   position: '(Founding Advisor)',
   bio: 'Professor, Department of Environmental Sciences. Director, Students Counselling and Guidance Centre, Jahangirnagar University.',
   imagePlaceholder: '/jamal.jpeg',
@@ -53,7 +53,7 @@ export const leadershipData = {
     {
       id: 'a3',
       name: 'SOHAG AN NAFIS',
-      position: '',
+      position: '(THEMATIC ADVISOR)',
       bio: 'COUNTRY DIRECTOR (BANGLADESH), GLOBAL ENTREPRENEURSHIP BOOTCAMP; TRAINER- ENGLISH SPEAKING, NDF BD (NATIONAL DEBATE FEDERATION BANGLADESH); FOUNDER CHAIRMAN, SAIDPUR DEBATE FEDERATION',
       imagePlaceholder: '/Sohag.png',
       socials: { email: 'snafis238@gmail.com', }
@@ -61,7 +61,7 @@ export const leadershipData = {
     {
       id: 'a4',
       name: 'DR. NAVIN YADAV',
-      position: '',
+      position: '(COUNTRY ADVISOR - NEPAL)',
       bio: 'FOUNDER PRESIDENT, NEPALESE MEDICAL STUDENTS ASSOCIATION, BANGLADESH; CHARTER PRESIDENT, KATHMANDU RAMECHHAP LEO CLUB; FORMER INTERN DOCTOR, POPULAR MEDICAL COLLEGE & HOSPITAL',
       imagePlaceholder: '/Nav.jpg',
       socials: { email: 'https://www.instagram.com/naya_navin?fbclid=IwY2xjawT02hNwZG9mBWV4dG4DYWVtAjEwAGJyaWQRMWsxdk5jUkwxcDdlUWFMOHlzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeWru4e_bussVGkhNCL0figs2uaAhPHItKXhTI5S0WZrMsTtWL2h86yR2b3Ys_aem_0jWtwauL7TfXfA6ltpSPTQ', }
@@ -93,18 +93,18 @@ export const leadershipData = {
     },
     {
       id: 'e4',
-      name: 'Nowsin Tanzim Authoi',
+      name: 'Nowshin Tanzim Authoi',
       position: 'CMO-Chief Marketing Officer',
       imagePlaceholder: '/authoi.jpg',
-      socials: { linkedin: '', email: ''}
+      socials: { linkedin: 'https://www.linkedin.com/in/noshin-tanzim-authoi/', email: 'mpr.earthsants@gmail.com'}
 
     },
     {
       id: 'e5',
       name: 'Akib Ahmed Talukder',
-      position: 'CPRO-Chief Publications & Research Officer',
+      position: 'CRO-Chief Research Officer',
       imagePlaceholder: '/akib.jpg',
-      socials: { linkedin: '', email: ''}
+      socials: { linkedin: 'https://www.linkedin.com/in/akib-ahmed-talukder-649674312/', email: 'dept.respub.earthsants@gmail.com'}
 
     },
      {
@@ -112,7 +112,7 @@ export const leadershipData = {
       name: 'Md Shahnoor Mridul',
       position: 'CCO-Chief Convening Officer',
       imagePlaceholder: '/mridul.jpg',
-      socials: { linkedin: '', email: ''}
+      socials: { linkedin: 'https://www.linkedin.com/in/md-shahnoor-mridul-09m/', email: 'eo.earthsants@gmail.com'}
 
     },
     {
@@ -120,7 +120,7 @@ export const leadershipData = {
       name: 'Ratul Ghosh',
       position: 'CPO-Chief Publications Officer',
       imagePlaceholder: '/ratul.jpg',
-      socials: { linkedin: '', email: ''}
+      socials: { linkedin: 'https://www.linkedin.com/in/ratul-ghosh-7bb172377/', email: 'dept.respub.earthsants@gmail.com'}
 
     },
     {
@@ -128,7 +128,7 @@ export const leadershipData = {
       name: 'Nowshin Sharmily',
       position: 'CLO-Chief Legal Officer',
       imagePlaceholder: '/nowshin.jpg',
-      socials: { linkedin: '', email: ''}
+      socials: { linkedin: 'https://www.linkedin.com/in/nowshin-sarmily-9679b627b/', email: 'nsharmily65@gmail.com'}
 
     },
 
