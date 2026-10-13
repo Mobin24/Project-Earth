@@ -83,7 +83,7 @@ export const leadershipData = {
       imagePlaceholder: '/Rafi.jpg',
       socials: { linkedin: 'https://www.linkedin.com/in/rafiahamed001/', email: 'fidaahamed15@gmail.com' }
     },
-     {
+    {
       id: 'e3',
       name: 'Nuren Tasnim',
       position: 'COO-Chief Operating Officer',
@@ -91,6 +91,47 @@ export const leadershipData = {
       socials: { linkedin: 'https://www.linkedin.com/in/nuren-tasnim/', email: 'tasnim.zeezpay@gmail.com'}
 
     },
+    {
+      id: 'e4',
+      name: 'Nowsin Tanzim Authoi',
+      position: 'CMO-Chief Marketing Officer',
+      imagePlaceholder: '/authoi.jpg',
+      socials: { linkedin: '', email: ''}
+
+    },
+    {
+      id: 'e5',
+      name: 'Akib Ahmed Talukder',
+      position: 'CPRO-Chief Publications & Research Officer',
+      imagePlaceholder: '/akib.jpg',
+      socials: { linkedin: '', email: ''}
+
+    },
+     {
+      id: 'e6',
+      name: 'Md Shahnoor Mridul',
+      position: 'CCO-Chief Convening Officer',
+      imagePlaceholder: '/mridul.jpg',
+      socials: { linkedin: '', email: ''}
+
+    },
+    {
+      id: 'e7',
+      name: 'Ratul Ghosh',
+      position: 'CPO-Chief Publications Officer',
+      imagePlaceholder: '/ratul.jpg',
+      socials: { linkedin: '', email: ''}
+
+    },
+    {
+      id: 'e8',
+      name: 'Nowshin Sharmily',
+      position: 'CLO-Chief Legal Officer',
+      imagePlaceholder: '/nowshin.jpg',
+      socials: { linkedin: '', email: ''}
+
+    },
+
   ],
   departments: [
     {
