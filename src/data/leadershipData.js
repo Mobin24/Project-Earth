@@ -32,7 +32,7 @@ export const leadershipData = {
   advisory: [
   {
   id: 'a1',
-  name: 'PROF. DR. MD. ZILLUR RAHMAN, PhD',
+  name: 'PROF. DR. MD. ZILLUR RAHMAN',
   position: '(Founding Advisor)',
   bio: 'PhD in Geotechnical Earthquake Engineering (UBC, Canada). MSc in Geological Engineering (UT, Netherlands). BSc & MSc in Geology (DU). Engineering Geologist and Professor, Department of Disaster Science and Climate Resilience, University of Dhaka. Former Dean, Faculty of Earth and Environmental Sciences, University of Dhaka.',
   imagePlaceholder: '/Zillur.jpg',
@@ -53,8 +53,8 @@ export const leadershipData = {
     {
       id: 'a3',
       name: 'SOHAG AN NAFIS',
-      position: '(THEMATIC ADVISOR)',
-      bio: 'COUNTRY DIRECTOR (BANGLADESH), GLOBAL ENTREPRENEURSHIP BOOTCAMP; TRAINER- ENGLISH SPEAKING, NDF BD (NATIONAL DEBATE FEDERATION BANGLADESH); FOUNDER CHAIRMAN, SAIDPUR DEBATE FEDERATION',
+      position: '(THEMATIC ADVISOR - LEGAL & INTERNATIONAL AFFAIRS)',
+      bio: 'Country Director (Bangladesh), Global Entrepreneurship Bootcamp; Trainer- English Speaking, NDF BD (National Debate Federation Bangladesh); Founder Chairman, Saidpur Debate Federation',
       imagePlaceholder: '/Sohag.png',
       socials: { email: 'snafis238@gmail.com', }
     },
@@ -62,7 +62,7 @@ export const leadershipData = {
       id: 'a4',
       name: 'DR. NAVIN YADAV',
       position: '(COUNTRY ADVISOR - NEPAL)',
-      bio: 'FOUNDER PRESIDENT, NEPALESE MEDICAL STUDENTS ASSOCIATION, BANGLADESH; CHARTER PRESIDENT, KATHMANDU RAMECHHAP LEO CLUB; FORMER INTERN DOCTOR, POPULAR MEDICAL COLLEGE & HOSPITAL',
+      bio: 'Medical Officer, Civil Service Hospital, Nepal; Founder President, Nepalese Medical Students Association, Bangladesh; Charter President, Kathmandu Ramechhap Leo Club; Former Intern Doctor, Popular Medical College & Hospital, Bangladesh',
       imagePlaceholder: '/Nav.jpg',
       socials: { email: 'https://www.instagram.com/naya_navin?fbclid=IwY2xjawT02hNwZG9mBWV4dG4DYWVtAjEwAGJyaWQRMWsxdk5jUkwxcDdlUWFMOHlzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeWru4e_bussVGkhNCL0figs2uaAhPHItKXhTI5S0WZrMsTtWL2h86yR2b3Ys_aem_0jWtwauL7TfXfA6ltpSPTQ', }
     }
@@ -93,7 +93,7 @@ export const leadershipData = {
     },
     {
       id: 'e4',
-      name: 'Nowshin Tanzim Authoi',
+      name: 'Noshin Tanzim Authoi',
       position: 'CMO-Chief Marketing Officer',
       imagePlaceholder: '/authoi.jpg',
       socials: { linkedin: 'https://www.linkedin.com/in/noshin-tanzim-authoi/', email: 'mpr.earthsants@gmail.com'}
