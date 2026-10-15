@@ -133,7 +133,7 @@ export default function Hero() {
 
           {/* phto tag*/}
 <img 
-  src="/Greenfluence.png" 
+  src="/NewBanner.jpg" 
   alt="Deep Soil Exhibition" 
   className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 z-0"
 />
@@ -148,7 +148,7 @@ export default function Hero() {
     Deep Soil & Reforestation Exhibition
   </h3> */}
   <a href="https://greenfluenceearthsants.com" className="text-[10px] text-olive-accent uppercase tracking-widest font-semibold mt-4 bg-forest-deep/80 py-1.5 px-3 rounded-full border border-olive-accent/10 shadow-md">
-    Click here to explore Greenfluence.
+     explore Greenfluence.
   </a>
 </div>
         </motion.div>
