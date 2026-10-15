@@ -148,7 +148,7 @@ export default function Hero() {
     Deep Soil & Reforestation Exhibition
   </h3> */}
   <a href="https://greenfluenceearthsants.com" className="text-[10px] text-olive-accent uppercase tracking-widest font-semibold mt-4 bg-forest-deep/80 py-1.5 px-3 rounded-full border border-olive-accent/10 shadow-md">
-     explore Greenfluence.
+     Coming Soon
   </a>
 </div>
         </motion.div>
