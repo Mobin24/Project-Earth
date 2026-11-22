@@ -4,6 +4,8 @@ import { ArrowRight, Leaf, ShieldAlert } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export default function Hero() {
+  const registrationUrl = 'https://greenfluenceearthsants.com';
+
   // Leaf parameters for the floating animations
   const leaves = [
     { id: 1, size: 24, top: '15%', left: '10%', duration: 12, delay: 0 },
@@ -93,7 +95,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 15 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
-          className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full max-w-md pt-4"
+          className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full max-w-3xl pt-4"
         >
           <Link
             //to="/get-involved"
@@ -111,6 +113,14 @@ export default function Hero() {
             className="w-full sm:w-auto inline-flex items-center justify-center space-x-2 bg-transparent hover:bg-forest-mid/30 text-white border border-[#D0CFC9]/30 hover:border-white text-sm font-bold uppercase tracking-wider py-3.5 px-8 rounded-full shadow-md transform hover:-translate-y-0.5 transition-all duration-300"
           >
             <span>Explore Our Impact</span>
+          </a>
+          <a
+            href={registrationUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="greenfluence-flow w-full sm:w-auto inline-flex items-center justify-center rounded-full px-8 py-3.5 text-sm font-bold uppercase tracking-wider text-white transition-transform duration-300 hover:-translate-y-0.5"
+          >
+            <span>GreenFluence</span>
           </a>
         </motion.div>
 
@@ -143,12 +153,11 @@ export default function Hero() {
 
 {/* content */}
 <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-6 bg-forest-deep/20 backdrop-blur-[1px] transition-all group-hover:backdrop-blur-0 z-20">
-  <Leaf size={48} className="text-olive-accent/80 mb-3 group-hover:scale-110 transition-transform duration-500 drop-shadow-md" />
   {/* <h3 className="text-xl md:text-2xl font-sans text-[#FCFAF7] font-medium drop-shadow-lg">
     Deep Soil & Reforestation Exhibition
   </h3> */}
-  <a href="https://greenfluenceearthsants.com" className="text-[10px] text-olive-accent uppercase tracking-widest font-semibold mt-4 bg-forest-deep/80 py-1.5 px-3 rounded-full border border-olive-accent/10 shadow-md">
-     Coming Soon
+  <a href={registrationUrl} target="_blank" rel="noopener noreferrer" className="text-[10px] text-olive-accent uppercase tracking-widest font-semibold mt-4 bg-forest-deep/80 py-1.5 px-3 rounded-full border border-olive-accent/10 shadow-md">
+     Registration Now
   </a>
 </div>
         </motion.div>

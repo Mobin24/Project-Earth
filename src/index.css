@@ -4,6 +4,43 @@
 @tailwind components;
 @tailwind utilities;
 
+@property --greenfluence-gradient-angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.greenfluence-flow {
+  --greenfluence-gradient-angle: 0deg;
+  border: 2px solid transparent;
+  background:
+    linear-gradient(120deg, #0d2419, #173b2a) padding-box,
+    conic-gradient(
+      from var(--greenfluence-gradient-angle),
+      transparent 0deg 220deg,
+      #78f0b5 240deg,
+      #70d9f5 265deg,
+      #a99aff 290deg,
+      #f49bc4 315deg,
+      #ffd479 340deg,
+      transparent 360deg
+    ) border-box;
+  box-shadow: 0 0 12px rgba(120, 240, 181, 0.22), inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+  animation: greenfluence-border-flow 4s linear infinite;
+}
+
+@keyframes greenfluence-border-flow {
+  to {
+    --greenfluence-gradient-angle: 360deg;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .greenfluence-flow {
+    animation: none;
+  }
+}
+
 @layer base {
   html {
     scroll-behavior: smooth;
